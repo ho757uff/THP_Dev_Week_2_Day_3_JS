@@ -9,17 +9,17 @@ function isPairEqualToGivenConst(arr, k) {
     for (var j = i + 1; j < arr.length; j++) {
       // Vérifier si la somme des éléments à l'indice i et j est égale à k
       if (arr[i] + arr[j] === k) {
-        return true; // Si une paire est trouvée, retourner true
+        return true; // Si une paire est trouvée, retourner "true"
       }
     }
   }
-  // Si aucune paire n'est trouvée après avoir parcouru tout le tableau, retourner false
+  // Si aucune paire n'est trouvée après avoir parcouru tout le tableau, retourner "false"
   return false;
 }
 
-// Définir un tableau de nombres
+// Tableau de nombres
 const numbers = [10, 15, 3, 7, 9, 11, 12, 17, 18, 19, 20, 21];
-// Définir la valeur de k
+// Valeur de k
 const k = 35;
 
 // Appeler la fonction isPairEqualToGivenConst avec le tableau numbers et la valeur k
