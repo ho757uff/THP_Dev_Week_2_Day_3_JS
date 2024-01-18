@@ -28,7 +28,7 @@ function isPairEqualToGivenConst(arr, k) {
 // Définir un tableau de nombres
 const numbers = [10, 15, 3, 7, 9, 11, 12, 17, 18, 19, 20, 21];
 // Définir la valeur de k
-const k = 35;
+const k = 999;
 
 // Appeler la fonction isPairEqualToGivenConst avec le tableau numbers et la valeur k
 console.log(isPairEqualToGivenConst(numbers, k)); // Devrait afficher true si une paire d'éléments ayant une somme égale à k est trouvée, sinon false
